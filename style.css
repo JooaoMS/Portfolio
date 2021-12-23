@@ -1,3 +1,4 @@
+
 html{
   scroll-behavior: smooth;
 }
@@ -21,6 +22,7 @@ header{
   align-items: center;
   justify-content: space-around;
   padding: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cabecalho-menu-item{
@@ -51,11 +53,7 @@ header{
 .sobreMim{
   margin-left: 800px;
   margin-top: 50px;
-}
-
-.conhecimentos{
-  margin-left:100px;
-  margin-top: 150px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .htimg{
@@ -70,7 +68,7 @@ header{
   background-image: none;
   width: 300px;
   margin-left: 200px;
-  margin-top: -930px;
+  margin-top: -300px;
 }
 
 #fonte-github{
@@ -84,15 +82,12 @@ header{
 
 #projeto{
   margin-left: 550px;
+  margin-top: 200px;
 }
 
 #carouselExampleDark{
   margin-left: 300px;
   width: 750px;
-}
-
-.projetos{
-  margin-top: 200px;
 }
 
 #linke{
@@ -110,4 +105,8 @@ header{
   background-color: #1C1B29;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
   z-index: 10;
+}
+
+#projetot2{
+  margin-left: 310px;
 }
