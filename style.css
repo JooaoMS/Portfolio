@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dosis:wght@200&family=Padauk&family=Roboto:wght@100&family=Secular+One&display=swap');
 html{
   scroll-behavior: smooth;
 }
@@ -42,7 +42,7 @@ header{
 }
 
 #t2{
-  font-family: monospace;
+  font-family: 'Roboto';
   font-size: 20px;
 }
 
@@ -83,6 +83,7 @@ header{
 #projeto{
   margin-left: 550px;
   margin-top: 200px;
+  font-family: 'Roboto';
 }
 
 #carouselExampleDark{
@@ -105,8 +106,14 @@ header{
   background-color: #1C1B29;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
   z-index: 10;
+  font-family: 'Roboto';
 }
 
 #projetot2{
   margin-left: 310px;
+  font-family: 'Roboto';
+}
+
+.redes{
+  font-family: 'Roboto';
 }
