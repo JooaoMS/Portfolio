@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dosis:wght@200&family=Padauk&family=Roboto:wght@100&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Roboto:wght@100&display=swap');
 html{
   scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -22,7 +28,6 @@ header{
   align-items: center;
   justify-content: space-around;
   padding: 18px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .cabecalho-menu-item{
@@ -32,88 +37,90 @@ header{
   margin-left: 50px;
 }
 
-#inicio{
-  margin-left:100px;
-  margin-top: 150px;
+.conteudo {
+  margin-bottom: 48px;
 }
 
-#t1{
-  font-size: 20px;
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 84px;
+  margin-top: 84px;
 }
 
-#t2{
-  font-family: 'Roboto';
-  font-size: 20px;
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-#t3{
+.conteudo-principal-escrito-titulo {
+  font-size: 48px;
+}
+
+.nome {
   color: #4752C4;
 }
 
-.sobreMim{
-  margin-left: 800px;
-  margin-top: 50px;
-  font-family: 'Roboto', sans-serif;
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+  margin-left: -1265px;
+  gap: 20px;
 }
 
-.htimg{
-  width: 32px;
+.icones {
+  width: 22px;    
+  height: 22px;
 }
 
-.h6{
-  font-size: 15px;
+.conteudo-principal-imagem {
+  width: 350px;
+  height: 350px;
 }
 
-.imgdesign{
-  background-image: none;
-  width: 300px;
-  margin-left: 200px;
-  margin-top: -300px;
+.conteudo-secundario-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  font-size: 36px;
+  color: #4752C4;
 }
 
-#fonte-github{
-  margin-left: 610px;
-  margin-top: -40px;
+.conteudo-secundario-paragrafo {
+  align-items: center;
 }
 
-#fonte-linkedin{
-  margin-left: 705px;
-}
-
-#projeto{
-  margin-left: 550px;
+.conteudo-habilidades-escrito {
+  display: flex;
+  justify-content: center;
   margin-top: 200px;
-  font-family: 'Roboto';
+  font-size: 36px;
+  color: #4752C4;
 }
 
-#carouselExampleDark{
-  margin-left: 300px;
-  width: 750px;
+.conteudo-habilidades-paragrafo {
+  display: flex;
+  justify-content: center;
 }
 
-#linke{
-  margin-left: 700px;
-  margin-top: -90px;
+.conteudo-principal-projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 84px;
 }
 
-#git{
-  margin-left: 600px;
-  margin-top: 150px;
+.conteudo-principal-projetos-escrito {
+  color: #4752C4;
+  font-size: 36px;
 }
 
-.coluna{
-  position: relative;
-  background-color: #1C1B29;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  z-index: 10;
-  font-family: 'Roboto';
-}
-
-#projetot2{
-  margin-left: 310px;
-  font-family: 'Roboto';
-}
-
-.redes{
-  font-family: 'Roboto';
+.conteudo-principal-projetos-topicos {
+  width: 368px;
 }
