@@ -41,11 +41,12 @@ header{
     justify-content: space-around;
     padding: 1em;
     font-size: 0.9em;
+    
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 2em;
+    gap: 1em;
     text-decoration: overline;
 }
 
@@ -53,12 +54,10 @@ header{
     color: white;
 }
 
-.conteudo {
-    margin-bottom: 48px;
-}
-
 .conteudo-principal {
     margin-top: 8em;
+    margin: 10%;
+    
 }
 
 .conteudo-principal-escrito-titulo-p1{
@@ -73,6 +72,7 @@ header{
 .conteudo-principal-escrito-titulo-p3 {
     font-size: 1em;
     font-weight: 400;
+    color: #31318d;
 }
 
 .conteudo-principal-botao1 {
@@ -99,12 +99,6 @@ header{
     border-radius: 1em;
 }
 
-.conteudo-secundario-desc {
-    margin-top: 8em;
-    font-size: 0.8em;
-    font-weight: 400;
-}
-
 .medalha{
     margin-top: 2em;
 }
@@ -119,12 +113,6 @@ header{
 }
 
 .conteudo-secundario-paragrafo {
-    font-size: 0.8em;
-    font-weight: 400;
-}
-
-.conteudo-habilidades-escrito-titulo {
-    margin-top: 5em;
     font-size: 0.8em;
     font-weight: 400;
 }
@@ -158,10 +146,10 @@ header{
 
 .conteudoo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 6em;
+    flex-direction: initial;
+    justify-content:space-around;
     font-size: 0.9em;
+    margin-right: 15%;
 }
 
 .conteudo-principal-escrito-tituloo {
@@ -180,8 +168,4 @@ header{
 .conteudo-principal-projetos-topicos {
     border-radius: 1em;
     width: 22em;
-}
-
-.icon {
-    width: 2.5em;
 }
